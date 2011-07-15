@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w 
-package settings;
+package yahooBossv2settings;
 
 $boss_consumer_key = "YOUR BOSS 2.0 KEY IN HERE";
 $boss_consumer_secret = "YOUR BOSS 2.0 SECRET IN HERE";
