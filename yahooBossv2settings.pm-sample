@@ -1,0 +1,9 @@
+#!/usr/bin/perl -w 
+package settings;
+
+$boss_consumer_key = "YOUR BOSS 2.0 KEY IN HERE";
+$boss_consumer_secret = "YOUR BOSS 2.0 SECRET IN HERE";
+#a choice between full web "web" or limited web "limited". The later being cheaper
+$boss_buckets = "web";  
+
+1;
