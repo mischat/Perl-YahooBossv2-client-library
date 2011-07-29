@@ -8,3 +8,5 @@ my $yahooBossv2 = yahooBossv2->new();
 my $res = $yahooBossv2->query(@ARGV[0]);
 
 print "The result returned is $res\n";
+
+# vi:set expandtab sts=4 sw=4:

@@ -53,6 +53,8 @@ sub query {
     if (!$res->is_success) {  
         # Print error and die  
         print "$res\n";
+        print $res->content."\n";
+print $res->status_line."\n";
         die "Something went wrong";  
     }  
 
